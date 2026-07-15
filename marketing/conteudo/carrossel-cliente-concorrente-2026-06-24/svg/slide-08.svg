@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Space+Grotesk:wght@600;700&display=swap');
+      .t{font-family:'Space Grotesk','Segoe UI',sans-serif;font-weight:700}
+      .b{font-family:'Inter','Segoe UI',sans-serif}
+    </style>
+  </defs>
+
+  <g id="fundo"><rect width="1080" height="1350" fill="#2E6BFF"/></g>
+
+  <g id="logo">
+    <g transform="translate(90,62) scale(0.30)"><path d="M50 6 L60.8 39.2 L94 50 L60.8 60.8 L50 94 L39.2 60.8 L6 50 L39.2 39.2 Z" fill="#FFFFFF"/></g>
+    <text class="t" x="130" y="90" font-size="30" letter-spacing="-1"><tspan fill="#FFFFFF">strapa</tspan><tspan fill="#0B1A2F">.ai</tspan></text>
+  </g>
+  <text id="contador" class="b" x="990" y="90" text-anchor="end" font-size="26" fill="rgba(255,255,255,0.7)">08 / 09</text>
+
+  <text id="kicker" class="b" x="90" y="490" font-size="24" font-weight="700" letter-spacing="6" fill="rgba(255,255,255,0.85)">MITO</text>
+  <rect id="regua" x="90" y="514" width="72" height="5" fill="#FFFFFF"/>
+
+  <text id="titulo" class="t" x="90" y="660" font-size="82" letter-spacing="-2.5" fill="#FFFFFF">
+    <tspan x="90" dy="0">Não é coisa de</tspan>
+    <tspan x="90" dy="92">empresa grande.</tspan>
+    <tspan x="90" dy="92">Nem caro.</tspan>
+  </text>
+
+  <text id="corpo" class="b" x="90" y="1080" font-size="50" font-weight="600" fill="#FFFFFF">
+    <tspan x="90" dy="0">Hoje é <tspan class="t" font-weight="700" fill="#0B1A2F">o mínimo</tspan></tspan>
+    <tspan x="90" dy="64">pra competir.</tspan>
+  </text>
+</svg>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Strapa.ai — Capa de perfil WhatsApp (1640×856)</title>
+<link rel="stylesheet" href="../identidade/fonts/fonts.css">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#0B1A2F}
+
+  /* ---- CAPA DE PERFIL 1640×856 ----
+     A foto de perfil (círculo) sobrepõe a região inferior-esquerda
+     quando vista no WhatsApp: essa zona fica sem conteúdo crítico. */
+  .cover{
+    width:1640px;height:856px;position:relative;overflow:hidden;
+    background:
+      radial-gradient(1000px 620px at 86% 10%, rgba(46,107,255,.20), transparent 62%),
+      radial-gradient(700px 700px at 8% 96%, rgba(46,107,255,.10), transparent 60%),
+      #0B1A2F;
+    color:#F5F8FF;font-family:'Inter',sans-serif;
+  }
+  .grid{position:absolute;inset:0;opacity:.05;background-image:
+    linear-gradient(#F5F8FF 1px,transparent 1px),
+    linear-gradient(90deg,#F5F8FF 1px,transparent 1px);
+    background-size:64px 64px}
+
+  /* Coluna de conteúdo, à direita da zona da foto */
+  .content{position:absolute;left:560px;top:0;bottom:0;width:980px;
+    display:flex;flex-direction:column;justify-content:center}
+
+  .kick{font-weight:700;font-size:23px;letter-spacing:.24em;text-transform:uppercase;
+    color:#2E6BFF;margin-bottom:22px}
+  .rule{width:64px;height:3px;background:#2E6BFF;margin-bottom:34px}
+
+  .wm{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:128px;
+    letter-spacing:-0.03em;line-height:1;display:flex;align-items:center;gap:26px}
+  .wm .ai{color:#2E6BFF}
+  .mark{height:108px;width:auto;flex:none}
+
+  .tag{font-size:40px;font-weight:500;color:rgba(245,248,255,.82);
+    margin-top:28px;line-height:1.3;max-width:880px}
+  .tag strong{font-weight:600;color:#F5F8FF}
+
+  /* 4 serviços em 4 blocos — como o "S" da logo, formado por 4 blocos */
+  .services{display:grid;grid-template-columns:auto auto;justify-content:start;
+    column-gap:96px;row-gap:26px;margin-top:56px}
+  .svc{border-left:3px solid #2E6BFF;padding:4px 0 4px 20px;
+    font-size:29px;font-weight:600;letter-spacing:.01em;white-space:nowrap}
+
+  /* bottom:80px mantém o rodapé dentro do corte 2.35:1 do WhatsApp;
+     centralizado, fica fora da zona da foto de perfil (canto inferior esquerdo) */
+  .foot{position:absolute;left:50%;transform:translateX(-50%);bottom:80px;
+    display:flex;align-items:center;gap:14px;
+    font-size:23px;font-weight:600;color:rgba(245,248,255,.62)}
+  .foot .dot{width:8px;height:8px;border-radius:50%;background:#2E6BFF}
+</style>
+</head>
+<body>
+  <div class="cover">
+    <div class="grid"></div>
+
+    <div class="content">
+      <div class="kick">Inteligência artificial pra negócio local</div>
+      <div class="rule"></div>
+      <div class="wm">
+        <img class="mark" src="../identidade/logo-icon-fundo-escuro.png" alt="">
+        <span>strapa<span class="ai">.ai</span></span>
+      </div>
+      <div class="tag">Presença digital que traz <strong>cliente pra dentro</strong>.</div>
+      <div class="services">
+        <div class="svc">Sites</div>
+        <div class="svc">Conteúdo pra Instagram</div>
+        <div class="svc">Atendimento no WhatsApp</div>
+        <div class="svc">Tráfego pago</div>
+      </div>
+    </div>
+
+    <div class="foot"><span class="dot"></span> Curitiba e região</div>
+  </div>
+</body>
+</html>

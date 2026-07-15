@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap');
+      .t{font-family:'Space Grotesk','Segoe UI',sans-serif;font-weight:700}
+      .b{font-family:'Inter','Segoe UI',sans-serif}
+    </style>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0B1A2F"/><stop offset="1" stop-color="#2E6BFF"/></linearGradient>
+    <linearGradient id="ov4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1A2F" stop-opacity="0.6"/>
+      <stop offset="0.55" stop-color="#0B1A2F" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#0B1A2F" stop-opacity="0.97"/>
+    </linearGradient>
+  </defs>
+
+  <!-- FUNDO: trocar rect#img-4 por <image href="..." width="1080" height="1350" preserveAspectRatio="xMidYMid slice"/> -->
+  <g id="imagem">
+    <rect id="img-4" width="1080" height="1350" fill="#0A0E14"/>
+    <rect width="1080" height="1350" fill="url(#ov4)"/>
+    <rect x="90" y="150" width="900" height="300" rx="18" fill="none" stroke="#2E6BFF" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="14 12"/>
+    <text class="b" x="540" y="285" text-anchor="middle" font-size="30" font-weight="700" fill="rgba(245,248,255,0.6)">IMAGEM AQUI</text>
+    <text class="b" x="540" y="325" text-anchor="middle" font-size="23" fill="rgba(245,248,255,0.4)">pessoa no celular à noite, pesquisando</text>
+  </g>
+
+  <rect id="accent-bar" width="1080" height="7" fill="url(#brand)"/>
+  <g id="brand-bar" class="b" font-size="22" font-weight="700" letter-spacing="1.5">
+    <text x="56" y="56" fill="rgba(245,248,255,0.5)">STRAPA.AI</text>
+    <text x="1024" y="56" text-anchor="end" fill="rgba(245,248,255,0.5)">@strapa.ai · JUNHO 2026</text>
+  </g>
+
+  <g id="conteudo">
+    <text id="tag" class="b" x="64" y="560" font-size="24" font-weight="700" letter-spacing="5" fill="#2E6BFF">OS NÚMEROS</text>
+    <text id="stat" class="t" x="58" y="800" font-size="220" letter-spacing="-8" fill="#2E6BFF">96%</text>
+    <text id="apoio" class="b" x="64" y="890" font-size="38" font-weight="500" fill="rgba(245,248,255,0.82)">
+      <tspan x="64" dy="0">dos brasileiros pesquisam a empresa no</tspan>
+      <tspan x="64" dy="52"><tspan font-weight="700" fill="#F5F8FF">Google</tspan> antes de ligar ou visitar.</tspan>
+    </text>
+    <text id="fonte" class="b" x="64" y="1010" font-size="22" fill="rgba(245,248,255,0.5)">Fonte: Google / Elife Brasil</text>
+    <text id="fecho" class="b" x="64" y="1110" font-size="38" font-weight="500" fill="rgba(245,248,255,0.82)">
+      <tspan x="64" dy="0">Quem não aparece nessa hora some</tspan>
+      <tspan x="64" dy="52">antes de ser considerado.</tspan>
+    </text>
+  </g>
+
+  <g id="progress" class="b">
+    <rect x="56" y="1300" width="880" height="3" rx="1.5" fill="rgba(245,248,255,0.15)"/>
+    <rect x="56" y="1300" width="587" height="3" rx="1.5" fill="#2E6BFF"/>
+    <text x="1024" y="1308" text-anchor="end" font-size="22" font-weight="600" fill="rgba(245,248,255,0.4)">4 / 6</text>
+  </g>
+</svg>

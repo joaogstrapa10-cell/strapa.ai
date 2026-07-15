@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap');
+      .t{font-family:'Space Grotesk','Segoe UI',sans-serif;font-weight:700}
+      .b{font-family:'Inter','Segoe UI',sans-serif}
+    </style>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0B1A2F"/><stop offset="1" stop-color="#2E6BFF"/></linearGradient>
+    <linearGradient id="ov2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1A2F" stop-opacity="0.55"/>
+      <stop offset="0.6" stop-color="#0B1A2F" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#0B1A2F" stop-opacity="0.96"/>
+    </linearGradient>
+  </defs>
+
+  <!-- FUNDO: trocar rect#img-2 por <image href="..." width="1080" height="1350" preserveAspectRatio="xMidYMid slice"/> -->
+  <g id="imagem">
+    <rect id="img-2" width="1080" height="1350" fill="#0A0E14"/>
+    <rect width="1080" height="1350" fill="url(#ov2)"/>
+    <rect x="90" y="150" width="900" height="470" rx="18" fill="none" stroke="#2E6BFF" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="14 12"/>
+    <text class="b" x="540" y="370" text-anchor="middle" font-size="30" font-weight="700" fill="rgba(245,248,255,0.6)">IMAGEM AQUI</text>
+    <text class="b" x="540" y="410" text-anchor="middle" font-size="23" fill="rgba(245,248,255,0.4)">comerciante esperando numa loja vazia</text>
+  </g>
+
+  <rect id="accent-bar" width="1080" height="7" fill="url(#brand)"/>
+  <g id="brand-bar" class="b" font-size="22" font-weight="700" letter-spacing="1.5">
+    <text x="56" y="56" fill="rgba(245,248,255,0.5)">STRAPA.AI</text>
+    <text x="1024" y="56" text-anchor="end" fill="rgba(245,248,255,0.5)">@strapa.ai · JUNHO 2026</text>
+  </g>
+
+  <g id="conteudo">
+    <text id="tag" class="b" x="64" y="950" font-size="24" font-weight="700" letter-spacing="5" fill="#2E6BFF">A ENGRENAGEM QUE TRAVOU</text>
+    <rect x="64" y="974" width="64" height="5" fill="#2E6BFF"/>
+    <text id="body" class="b" x="64" y="1070" font-size="42" font-weight="500" fill="rgba(245,248,255,0.82)">
+      <tspan x="64" dy="0">Por décadas, um cliente trazia o outro</tspan>
+      <tspan x="64" dy="56">e a loja vivia disso. Hoje a indicação</tspan>
+      <tspan x="64" dy="56">sozinha <tspan font-weight="700" fill="#F5F8FF">não enche mais o salão</tspan> — e o</tspan>
+      <tspan x="64" dy="56">motivo não é a crise.</tspan>
+    </text>
+  </g>
+
+  <g id="progress" class="b">
+    <rect x="56" y="1300" width="880" height="3" rx="1.5" fill="rgba(245,248,255,0.15)"/>
+    <rect x="56" y="1300" width="293" height="3" rx="1.5" fill="#2E6BFF"/>
+    <text x="1024" y="1308" text-anchor="end" font-size="22" font-weight="600" fill="rgba(245,248,255,0.4)">2 / 6</text>
+  </g>
+</svg>

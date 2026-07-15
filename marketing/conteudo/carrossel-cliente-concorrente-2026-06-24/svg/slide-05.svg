@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Space+Grotesk:wght@600;700&display=swap');
+      .t{font-family:'Space Grotesk','Segoe UI',sans-serif;font-weight:700}
+      .b{font-family:'Inter','Segoe UI',sans-serif}
+    </style>
+  </defs>
+
+  <g id="fundo"><rect width="1080" height="1350" fill="#F4F7FC"/></g>
+
+  <g id="logo">
+    <g transform="translate(90,62) scale(0.30)"><path d="M50 6 L60.8 39.2 L94 50 L60.8 60.8 L50 94 L39.2 60.8 L6 50 L39.2 39.2 Z" fill="#2E6BFF"/></g>
+    <text class="t" x="130" y="90" font-size="30" letter-spacing="-1"><tspan fill="#0A0E14">strapa</tspan><tspan fill="#2E6BFF">.ai</tspan></text>
+  </g>
+  <text id="contador" class="b" x="990" y="90" text-anchor="end" font-size="26" fill="rgba(10,14,20,0.45)">05 / 09</text>
+
+  <text id="kicker" class="b" x="90" y="470" font-size="24" font-weight="700" letter-spacing="6" fill="#2E6BFF">A LIÇÃO</text>
+  <rect id="regua" x="90" y="494" width="72" height="5" fill="#2E6BFF"/>
+
+  <text id="titulo" class="t" x="90" y="640" font-size="92" letter-spacing="-2.5" fill="#0A0E14">
+    <tspan x="90" dy="0">Não falta</tspan>
+    <tspan x="90" dy="100">cliente.</tspan>
+  </text>
+
+  <text id="corpo" class="b" x="90" y="920" font-size="52" font-weight="600" fill="#0A0E14">
+    <tspan x="90" dy="0">Falta <tspan class="t" font-weight="700" fill="#2E6BFF">estar presente</tspan></tspan>
+    <tspan x="90" dy="66">na hora que ele</tspan>
+    <tspan x="90" dy="66">decide comprar.</tspan>
+  </text>
+</svg>

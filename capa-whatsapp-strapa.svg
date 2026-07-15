@@ -1,0 +1,69 @@
+<svg width="1600" height="835" viewBox="0 0 1600 835" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="835" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0C1A2E"/>
+      <stop offset="0.5" stop-color="#0A1526"/>
+      <stop offset="1" stop-color="#060D19"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#1E4076" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#1E4076" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g id="fundo">
+    <rect width="1600" height="835" fill="url(#bg)"/>
+    <ellipse cx="720" cy="330" rx="780" ry="440" fill="url(#glow)"/>
+    <path id="grade-vertical" d="M64 0V835M128 0V835M192 0V835M256 0V835M320 0V835M384 0V835M448 0V835M512 0V835M576 0V835M640 0V835M704 0V835M768 0V835M832 0V835M896 0V835M960 0V835M1024 0V835M1088 0V835M1152 0V835M1216 0V835M1280 0V835M1344 0V835M1408 0V835M1472 0V835M1536 0V835" stroke="#3A64A0" stroke-opacity="0.09"/>
+    <path id="grade-horizontal" d="M0 64H1600M0 128H1600M0 192H1600M0 256H1600M0 320H1600M0 384H1600M0 448H1600M0 512H1600M0 576H1600M0 640H1600M0 704H1600M0 768H1600" stroke="#3A64A0" stroke-opacity="0.09"/>
+  </g>
+
+  <g id="eyebrow">
+    <text x="90" y="118" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4" fill="#3D7BFA">INTELIGÊNCIA ARTIFICIAL PRA NEGÓCIO LOCAL</text>
+    <rect x="90" y="136" width="60" height="3" rx="1.5" fill="#3D7BFA"/>
+  </g>
+
+  <g id="logo">
+    <g id="logo-marca" transform="translate(90 176) scale(0.92)">
+      <path d="M14 0H100V25H25V60H0V14L14 0Z" fill="#2F6BFF"/>
+      <path d="M0 40H100V60H0V40Z" fill="#FFFFFF"/>
+      <path d="M75 60H100V86L86 100H0V75H75V60Z" fill="#1D4ED8"/>
+    </g>
+    <text x="206" y="256" font-family="Inter, Arial, sans-serif" font-size="84" font-weight="800"><tspan fill="#FFFFFF">strapa</tspan><tspan fill="#3D7BFA">.ai</tspan></text>
+  </g>
+
+  <g id="tagline">
+    <text x="90" y="346" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="400" fill="#C3CFE2">Presença digital que traz</text>
+    <text x="90" y="396" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF">cliente pra dentro.</text>
+  </g>
+
+  <g id="servicos">
+    <g id="servico-1">
+      <rect x="90" y="450" width="4" height="30" rx="2" fill="#3D7BFA"/>
+      <text x="106" y="473" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="600" fill="#FFFFFF">Sites</text>
+    </g>
+    <g id="servico-2">
+      <rect x="90" y="502" width="4" height="30" rx="2" fill="#3D7BFA"/>
+      <text x="106" y="525" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="600" fill="#FFFFFF">Atendimento no WhatsApp</text>
+    </g>
+    <g id="servico-3">
+      <rect x="90" y="554" width="4" height="30" rx="2" fill="#3D7BFA"/>
+      <text x="106" y="577" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="600" fill="#FFFFFF">Conteúdo pra Instagram</text>
+    </g>
+    <g id="servico-4">
+      <rect x="90" y="606" width="4" height="30" rx="2" fill="#3D7BFA"/>
+      <text x="106" y="629" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="600" fill="#FFFFFF">Tráfego pago</text>
+    </g>
+  </g>
+
+  <g id="localizacao">
+    <circle cx="96" cy="754" r="5" fill="#3D7BFA"/>
+    <text x="114" y="762" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500" fill="#93A5C0">Curitiba e região</text>
+  </g>
+
+  <g id="GUIA-foto-perfil-APAGUE-ANTES-DE-USAR" opacity="0.6">
+    <circle cx="800" cy="417" r="210" fill="#3D7BFA" fill-opacity="0.06" stroke="#3D7BFA" stroke-width="2" stroke-dasharray="10 10"/>
+    <text x="800" y="410" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600" fill="#3D7BFA">SUA FOTO DE PERFIL</text>
+    <text x="800" y="438" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#3D7BFA">(apague esta guia antes de exportar)</text>
+  </g>
+</svg>

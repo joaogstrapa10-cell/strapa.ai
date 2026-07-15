@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Space+Grotesk:wght@600;700&display=swap');
+      .t{font-family:'Space Grotesk','Segoe UI',sans-serif;font-weight:700}
+      .b{font-family:'Inter','Segoe UI',sans-serif}
+    </style>
+  </defs>
+
+  <g id="fundo"><rect width="1080" height="1350" fill="#0B1A2F"/></g>
+
+  <g id="logo">
+    <g transform="translate(90,62) scale(0.30)"><path d="M50 6 L60.8 39.2 L94 50 L60.8 60.8 L50 94 L39.2 60.8 L6 50 L39.2 39.2 Z" fill="#2E6BFF"/></g>
+    <text class="t" x="130" y="90" font-size="30" letter-spacing="-1"><tspan fill="#F5F8FF">strapa</tspan><tspan fill="#2E6BFF">.ai</tspan></text>
+  </g>
+  <text id="contador" class="b" x="990" y="90" text-anchor="end" font-size="26" fill="rgba(245,248,255,0.55)">06 / 09</text>
+
+  <text id="kicker" class="b" x="90" y="300" font-size="24" font-weight="700" letter-spacing="6" fill="#2E6BFF">FAÇA O TESTE AGORA</text>
+  <rect id="regua" x="90" y="324" width="72" height="5" fill="#2E6BFF"/>
+
+  <g id="item-1">
+    <text class="t" x="90" y="490" font-size="60" fill="#2E6BFF">1</text>
+    <text class="b" x="180" y="465" font-size="44" font-weight="600" fill="#F5F8FF"><tspan x="180" dy="0">Pesquise seu negócio</tspan><tspan x="180" dy="56">no Google.</tspan></text>
+  </g>
+  <g id="item-2">
+    <text class="t" x="90" y="710" font-size="60" fill="#2E6BFF">2</text>
+    <text class="b" x="180" y="685" font-size="44" font-weight="600" fill="#F5F8FF"><tspan x="180" dy="0">Abra seu Instagram</tspan><tspan x="180" dy="56">com olho de cliente.</tspan></text>
+  </g>
+  <g id="item-3">
+    <text class="t" x="90" y="930" font-size="60" fill="#2E6BFF">3</text>
+    <text class="b" x="180" y="905" font-size="44" font-weight="600" fill="#F5F8FF"><tspan x="180" dy="0">Cronometre sua resposta</tspan><tspan x="180" dy="56">no WhatsApp.</tspan></text>
+  </g>
+
+  <rect x="90" y="1070" width="900" height="1" fill="rgba(245,248,255,0.14)"/>
+  <text id="footer" class="b" x="90" y="1160" font-size="44" font-weight="600" fill="#F5F8FF">
+    <tspan x="90" dy="0">Travou em algum?</tspan>
+    <tspan x="90" dy="58">Tá <tspan class="t" font-weight="700" fill="#2E6BFF">perdendo dinheiro</tspan> ali.</tspan>
+  </text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap');
+      .t{font-family:'Space Grotesk','Segoe UI',sans-serif;font-weight:700}
+      .b{font-family:'Inter','Segoe UI',sans-serif}
+    </style>
+    <linearGradient id="grad5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111F"/>
+      <stop offset="0.55" stop-color="#2E6BFF"/>
+      <stop offset="1" stop-color="#6FA0FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect id="fundo" width="1080" height="1350" fill="url(#grad5)"/>
+  <rect id="accent-bar" width="1080" height="7" fill="rgba(255,255,255,0.22)"/>
+  <g id="brand-bar" class="b" font-size="22" font-weight="700" letter-spacing="1.5">
+    <text x="56" y="56" fill="rgba(255,255,255,0.6)">STRAPA.AI</text>
+    <text x="1024" y="56" text-anchor="end" fill="rgba(255,255,255,0.6)">@strapa.ai · JUNHO 2026</text>
+  </g>
+
+  <g id="conteudo">
+    <text id="tag" class="b" x="64" y="600" font-size="24" font-weight="700" letter-spacing="5" fill="rgba(255,255,255,0.85)">A VIRADA</text>
+    <text id="headline" class="t" x="64" y="730" font-size="92" letter-spacing="-2.5" fill="#FFFFFF">
+      <tspan x="64" dy="0">Na tela,</tspan>
+      <tspan x="64" dy="98">ou invisível.</tspan>
+    </text>
+    <text id="body" class="b" x="64" y="980" font-size="36" font-weight="500" fill="rgba(255,255,255,0.92)">
+      <tspan x="64" dy="0">O boca a boca continua vivo — só foi morar no</tspan>
+      <tspan x="64" dy="50">Google, no Instagram e no WhatsApp. E a IA</tspan>
+      <tspan x="64" dy="50">transformou a forma de construir essa presença:</tspan>
+      <tspan x="64" dy="50"><tspan font-weight="700" fill="#FFFFFF">mais rápida, consistente e profissional.</tspan></tspan>
+    </text>
+  </g>
+
+  <g id="progress" class="b">
+    <rect x="56" y="1300" width="880" height="3" rx="1.5" fill="rgba(255,255,255,0.25)"/>
+    <rect x="56" y="1300" width="733" height="3" rx="1.5" fill="#FFFFFF"/>
+    <text x="1024" y="1308" text-anchor="end" font-size="22" font-weight="600" fill="rgba(255,255,255,0.55)">5 / 6</text>
+  </g>
+</svg>

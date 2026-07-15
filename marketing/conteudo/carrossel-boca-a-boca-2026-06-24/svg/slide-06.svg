@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap');
+      .t{font-family:'Space Grotesk','Segoe UI',sans-serif;font-weight:700}
+      .b{font-family:'Inter','Segoe UI',sans-serif}
+    </style>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0B1A2F"/><stop offset="1" stop-color="#2E6BFF"/></linearGradient>
+    <radialGradient id="glow6" cx="50%" cy="74%" r="55%">
+      <stop offset="0" stop-color="#2E6BFF" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#2E6BFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect id="fundo" width="1080" height="1350" fill="#0B1A2F"/>
+  <rect width="1080" height="1350" fill="url(#glow6)"/>
+  <rect id="accent-bar" width="1080" height="7" fill="url(#brand)"/>
+  <g id="brand-bar" class="b" font-size="22" font-weight="700" letter-spacing="1.5">
+    <text x="56" y="56" fill="rgba(245,248,255,0.5)">STRAPA.AI</text>
+    <text x="1024" y="56" text-anchor="end" fill="rgba(245,248,255,0.5)">@strapa.ai · JUNHO 2026</text>
+  </g>
+
+  <g id="conteudo">
+    <text id="body" class="b" x="64" y="500" font-size="42" font-weight="500" fill="rgba(245,248,255,0.9)">
+      <tspan x="64" dy="0">O próximo cliente novo vai conhecer o</tspan>
+      <tspan x="64" dy="58">negócio pela tela antes da porta. Quem</tspan>
+      <tspan x="64" dy="58">entende isso para de esperar indicação</tspan>
+      <tspan x="64" dy="58">e passa a <tspan font-weight="700" fill="#F5F8FF">provocá-la</tspan>.</tspan>
+    </text>
+  </g>
+
+  <g id="marca">
+    <g transform="translate(64,1040) scale(0.34)"><path d="M50 6 L60.8 39.2 L94 50 L60.8 60.8 L50 94 L39.2 60.8 L6 50 L39.2 39.2 Z" fill="#2E6BFF"/></g>
+    <text class="t" x="112" y="1078" font-size="58" letter-spacing="-2"><tspan fill="#F5F8FF">strapa</tspan><tspan fill="#2E6BFF">.ai</tspan></text>
+    <text class="b" x="64" y="1150" font-size="32" font-weight="600" fill="#2E6BFF">presença digital para seu negócio</text>
+    <text class="b" x="64" y="1198" font-size="26" font-weight="500" fill="rgba(245,248,255,0.55)">@strapa.ai</text>
+  </g>
+
+  <g id="progress" class="b">
+    <rect x="56" y="1300" width="880" height="3" rx="1.5" fill="rgba(245,248,255,0.15)"/>
+    <rect x="56" y="1300" width="880" height="3" rx="1.5" fill="#2E6BFF"/>
+    <text x="1024" y="1308" text-anchor="end" font-size="22" font-weight="600" fill="rgba(245,248,255,0.4)">6 / 6</text>
+  </g>
+</svg>

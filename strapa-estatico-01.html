@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@700&display=block" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1350px; overflow: hidden; }
+  body {
+    background: #0B1A2F;
+    display: flex;
+    flex-direction: column;
+    padding: 96px;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  .center {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .eyebrow {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.24em;
+    margin-right: -0.24em; /* compensa o tracking final para centralizar opticamente */
+    text-transform: uppercase;
+    color: #2E6BFF;
+  }
+  .rule {
+    width: 72px;
+    height: 3px;
+    background: #2E6BFF;
+    margin: 46px 0 54px;
+  }
+  .headline {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 1.12;
+    letter-spacing: -0.03em;
+    color: #F5F8FF;
+  }
+  .context {
+    margin-top: 48px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.62);
+  }
+  .footer {
+    display: flex;
+    align-items: baseline;
+    gap: 26px;
+  }
+  .wordmark {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: -0.01em;
+    color: #F5F8FF;
+  }
+  .wordmark span { color: #2E6BFF; }
+  .cta {
+    font-size: 21px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.62);
+  }
+</style>
+</head>
+<body>
+  <main class="center">
+    <div class="eyebrow">Seu negócio na internet</div>
+    <div class="rule"></div>
+    <h1 class="headline"><span class="line">Seu produto é melhor.</span><br><span class="line">Quem aparece primeiro</span><br><span class="line">é o concorrente.</span></h1>
+    <p class="context">É assim que o cliente decide antes de conhecer o seu.</p>
+  </main>
+  <footer class="footer">
+    <div class="wordmark">Strapa<span>.AI</span></div>
+    <div class="cta">chama no WhatsApp</div>
+  </footer>
+</body>
+</html>
