@@ -1,0 +1,16 @@
+# Configuração de deploy do site do Ajuste Fino Atelier na Netlify.
+# O site é estático, sem etapa de build: a Netlify só publica a pasta abaixo.
+
+[build]
+  publish = "MazyOS/ajuste-fino-atelier/site"
+
+# Fontes embutidas nunca mudam de conteúdo sem mudar de nome: cache longo.
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
