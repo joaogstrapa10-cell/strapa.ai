@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Símbolo do Ajuste Fino Atelier: agulha com linha dentro de um círculo rosé">
+  <circle cx="100" cy="100" r="100" fill="#B26E79"/>
+  <g transform="rotate(30 100 102)">
+    <path d="M100,174 C96.6,140 94.8,105 94.8,76 C94.8,55 96.6,44.5 100,42 C103.4,44.5 105.2,55 105.2,76 C105.2,105 103.4,140 100,174 Z" fill="#FFFFFF"/>
+    <ellipse cx="100" cy="59" rx="2.1" ry="7.5" fill="#B26E79"/>
+  </g>
+  <path d="M30,120 C18,86 42,50 76,52 C110,54 128,82 112,98 C98,112 74,102 78,82 C82,60 112,48 138,56 C158,62 170,82 163,104" fill="none" stroke="#FFFFFF" stroke-width="4.6" stroke-linecap="round"/>
+</svg>
