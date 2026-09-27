@@ -4,14 +4,19 @@ Six sample interior pages for a B5 portrait knitting and crochet pattern-develop
 
 | File | What it is |
 |---|---|
+| `PatternDesignPlanner_Interior.idml` | **Open this in InDesign** (File › Open). It's a native InDesign package with all text, frames, rules, the table, swatches, styles, layers and parent pages editable. |
 | `PatternDesignPlanner_Interior.jsx` | **InDesign build script.** Creates the fully editable document: swatches, paragraph and object styles, layers, parent pages, live text, a native table and vector rules. |
 | `PatternDesignPlanner_Interior_Preview.pdf` | Vector preview of the 6 pages at trim size. Text is live, not rasterised. |
 | `PatternDesignPlanner_Spreads.png` | Presentation board showing the pages as reader spreads. |
 | `preview/page-0X.svg` | Per-page vector previews. |
-| `build_planner.py` | The single source of truth for the layout. Change a value here and re-run it to regenerate the script and the previews. |
+| `build_planner.py` / `build_idml.py` | The single source of truth for the layout. Re-run both to regenerate the script, the IDML and the previews. |
 | `src/engine.jsx` | The InDesign engine that the generator fills with layout data. |
 
-## Building the InDesign file
+## Opening in InDesign
+
+**Easiest:** File › Open › `PatternDesignPlanner_Interior.idml`, then save it as `.indd`. Install the fonts first (below) so no font shows as missing.
+
+**Alternative (script):**
 
 1. Install the fonts, which are free from Google Fonts: **Cormorant Garamond** (Regular, Medium, Italic) and **Jost** (Light, Regular, Medium). If they are missing, the script falls back to Minion Pro and Myriad Pro and lists what it substituted.
 2. In InDesign, open **Window › Utilities › Scripts**. Right-click **User** and choose **Reveal in Finder/Explorer**. Copy `PatternDesignPlanner_Interior.jsx` into that folder, then double-click it in the panel.
