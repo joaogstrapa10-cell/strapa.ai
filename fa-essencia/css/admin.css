@@ -1,0 +1,59 @@
+/* FA ESSÊNCIA — painel da equipe */
+body{background:var(--ivory)}
+#app{display:grid;grid-template-columns:248px 1fr;min-height:100vh}
+aside{background:var(--paper);border-right:1px solid var(--line-2);padding:28px 18px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column;gap:6px}
+aside .brand{padding:0 10px 24px}
+aside .brand b{font-family:var(--serif);font-size:30px;letter-spacing:.1em;font-weight:500;display:block;line-height:1}
+aside .brand span{font-size:9.5px;letter-spacing:.4em;text-transform:uppercase;color:var(--brown);font-weight:600}
+aside a.nv{display:flex;gap:12px;align-items:center;padding:12px 14px;border-radius:14px;text-decoration:none;color:var(--ink-2);font-weight:600;font-size:14px;transition:.2s}
+aside a.nv:hover{background:var(--sand)}
+aside a.nv.on{background:var(--graphite);color:var(--ivory)}
+aside a.nv .n{margin-left:auto;background:var(--brown);color:#fff;font-size:11px;border-radius:99px;padding:1px 8px}
+aside .foot{margin-top:auto;padding:12px 10px;font-size:12.5px;color:var(--ink-3)}
+main{padding:36px 44px 80px;max-width:1280px;width:100%}
+.mh{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:28px;flex-wrap:wrap}
+.mh h1{font-size:44px}.mh p{color:var(--ink-2)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin-bottom:34px}
+.kpi{padding:20px 22px;text-decoration:none;display:block;transition:.25s var(--ease)}
+.kpi:hover{transform:translateY(-3px);box-shadow:var(--sh-2)}
+.kpi .v{font-family:var(--serif);font-size:48px;line-height:1;margin:10px 0 4px;font-variant-numeric:lining-nums}
+.kpi small{color:var(--ink-3);font-size:12.5px}
+.kpi.alert .v{color:var(--risk)}
+.kpi.alert{border-color:rgba(154,90,76,.28)}
+.grid2{display:grid;grid-template-columns:1.4fr 1fr;gap:20px}
+.tbl{width:100%;border-collapse:collapse}
+.tbl th{text-align:left;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--brown);padding:10px 14px;font-weight:600;border-bottom:1px solid var(--line)}
+.tbl td{padding:14px;border-bottom:1px solid var(--line-2);font-size:14px;vertical-align:middle}
+.tbl tr.rw{cursor:pointer;transition:background .15s}.tbl tr.rw:hover{background:rgba(233,224,213,.35)}
+.tbl .nm{font-weight:600}.tbl small{color:var(--ink-3);display:block;font-size:12px}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.tools .input,.tools .select{min-height:44px;padding:10px 16px;width:auto;min-width:200px}
+.alerts{display:flex;gap:6px;flex-wrap:wrap}
+.acard{display:flex;gap:16px;align-items:flex-start;padding:20px 22px;margin-bottom:12px;border-left:4px solid var(--taupe)}
+.acard.s3{border-left-color:var(--risk)}.acard.s2{border-left-color:var(--warn)}
+.acard h3{font-size:24px}
+.acard .why{display:flex;flex-direction:column;gap:6px;margin:8px 0}
+.acard .why div{font-size:13.5px;color:var(--ink-2)}
+.pd{display:grid;grid-template-columns:1fr 360px;gap:20px;align-items:start}
+.sec-t{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--brown);font-weight:600;margin-bottom:14px;display:block}
+.ev{display:flex;gap:14px;padding:12px 0;border-bottom:1px solid var(--line-2);font-size:14px}
+.ev:last-child{border:0}
+.ev .ic{width:34px;height:34px;border-radius:50%;background:var(--sand);display:grid;place-items:center;color:var(--brown);flex:none}
+.ev small{color:var(--ink-3);font-size:12px;display:block}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px}
+.pgrid img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:12px;background:var(--sand);cursor:pointer}
+.stack>*+*{margin-top:16px}
+.act{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}.pd>*,.grid2>*{min-width:0}.act .btn{white-space:normal}
+.tabs{display:none}
+@media(max-width:1000px){
+  #app{grid-template-columns:1fr}
+  aside{position:fixed;inset:auto 0 0 0;height:auto;flex-direction:row;padding:8px;z-index:60;border-top:1px solid var(--line);border-right:0;overflow-x:auto;gap:2px}
+  aside .brand,aside .foot{display:none}
+  aside a.nv{flex-direction:column;gap:2px;font-size:10.5px;padding:8px 10px;flex:1;min-width:64px;text-align:center}
+  aside a.nv .n{position:absolute;margin:0;transform:translate(14px,-6px);font-size:10px}
+  main{padding:24px 18px 110px}.mh h1{font-size:34px}
+  .grid2,.pd{grid-template-columns:1fr}
+  .tbl .hide-m{display:none}
+}
+.login{min-height:100vh;display:grid;place-items:center;padding:20px}
+.login .card{max-width:400px;width:100%;text-align:center;padding:40px 32px}
