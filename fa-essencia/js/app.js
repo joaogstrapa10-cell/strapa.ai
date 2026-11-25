@@ -55,7 +55,7 @@ function openWA(kind, text) {
 /* ---------- telas: onboarding ---------- */
 function welcome() {
   return shell(`<div class="welcome">
-    <div class="rise"><div class="logo"><b>FA</b><div class="rule"></div><span>Essência</span></div></div>
+    <div class="rise"><div class="logo"><img src="brand/fa-monograma-preto.png" alt="FA"><div class="rule"></div><span>Essência</span></div></div>
     <div class="art rise" style="animation-delay:.15s"><img alt="" style="width:100%;height:100%;object-fit:cover" src="${art(5, 700, 400)}"></div>
     <div class="rise" style="animation-delay:.3s">
       <h1>Um cuidado que não termina <span class="em">quando você sai da clínica.</span></h1>
@@ -98,7 +98,7 @@ function entrar() {
 }
 function launch() {
   return shell(`<div class="launch"><div class="orb"><i style="width:260px;height:260px;background:var(--sand);top:-60px;right:-80px"></i><i style="width:240px;height:240px;background:var(--olive);bottom:-40px;left:-90px;opacity:.28"></i></div>
-    <div class="rise" style="position:relative"><div class="logo"><b>FA</b><div class="rule"></div><span>Essência</span></div>
+    <div class="rise" style="position:relative"><div class="logo"><img src="brand/fa-monograma-preto.png" alt="FA"><div class="rule"></div><span>Essência</span></div>
     <h1>Bem-vinda ao seu espaço.</h1>
     <p>Criamos este lugar pensando em você. Para que suas dúvidas tenham espaço, seus momentos sejam registrados e você nunca se sinta sozinha durante sua jornada.</p>
     <button class="btn primary block" data-act="finishLaunch">Continuar ${icon('arrow', 'sm')}</button></div></div>`, true);
@@ -115,7 +115,7 @@ function home() {
   const unread = S.dueNotifications(p.id).filter(x => !x.read).length;
   const statusTxt = { novo: 'Acompanhamento iniciado', em_acompanhamento: 'Acompanhamento ativo', retorno_pendente: 'Vamos combinar seu retorno', concluido: 'Etapa concluída' }[p.status];
   return shell(`
-  <div class="topbar"><div class="logo sm"><b>FA</b></div><a class="iconbtn" href="#/notificacoes" aria-label="Notificações">${icon('bell')}${unread ? '<i class="badge"></i>' : ''}</a></div>
+  <div class="topbar"><div class="logo sm"><img src="brand/fa-monograma-preto.png" alt="FA"></div><a class="iconbtn" href="#/notificacoes" aria-label="Notificações">${icon('bell')}${unread ? '<i class="badge"></i>' : ''}</a></div>
   <div class="hello rise"><h1>Olá, ${esc(first(p.name))}.</h1><p>Estamos cuidando de cada detalhe da sua jornada.</p></div>
   <div class="journey rise" style="animation-delay:.1s">
     <span class="eyebrow">Sua jornada de cuidado</span>

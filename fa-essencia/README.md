@@ -32,4 +32,4 @@ Abra o app e o painel em abas diferentes: os dados são compartilhados e atualiz
 - Orientações clínicas: textos seed são neutros e de demonstração; só aparecem para a paciente se **aprovados** pela equipe médica.
 
 ## Identidade
-Ícone e símbolo em `brand/` (`icon-1024.png` para as lojas, `icon-rounded-1024.png`, `symbol.svg`).
+Logo da Clínica FA (branca e preta, completa e só o monograma) e ícone do app em `brand/` (`icon-1024.png` quadrado para as lojas, `icon-rounded-1024.png`).

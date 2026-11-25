@@ -28,7 +28,7 @@ function stats() {
 
 /* ---------- views ---------- */
 function login() {
-  return `<div class="login"><div class="card rise"><div style="font-family:var(--serif);font-size:48px;letter-spacing:.1em;line-height:1">FA</div><div class="eyebrow" style="margin:6px 0 24px;letter-spacing:.4em">Essência · Equipe</div>
+  return `<div class="login"><div class="card rise"><img src="brand/fa-monograma-preto.png" alt="FA" style="height:62px;display:block;margin:0 auto"><div class="eyebrow" style="margin:6px 0 24px;letter-spacing:.4em">Essência · Equipe</div>
   <h2 style="font-size:30px;margin-bottom:6px">Painel de acompanhamento</h2><p class="muted" style="margin-bottom:22px;font-size:14px">Acesso restrito à equipe da Clínica FA.</p>
   <form id="f-login"><div class="field" style="text-align:left"><label for="pw">Senha da equipe</label><input class="input" id="pw" type="password" autocomplete="current-password" placeholder="••••••••"></div><p id="pe" style="color:var(--risk);font-size:13px;margin-bottom:10px" hidden>Senha incorreta.</p><button class="btn primary block">Entrar</button></form>
   <p class="soft" style="font-size:12px;margin-top:16px">Demonstração: senha <b>fa2026</b>. Em produção, Supabase Auth com perfil “staff”.</p></div></div>`;
@@ -36,7 +36,7 @@ function login() {
 function layout(path, inner) {
   const st = stats();
   const nv = [['/', 'Visão geral', 'grid'], ['/atencao', 'Precisa de atenção', 'alert', st.attention.length], ['/pacientes', 'Pacientes', 'users'], ['/lembretes', 'Lembretes', 'bell', st.rem], ['/orientacoes', 'Orientações', 'leaf'], ['/config', 'Configurações', 'gear']];
-  return `<div id="app"><aside><div class="brand"><b>FA</b><span>Essência · Equipe</span></div>
+  return `<div id="app"><aside><div class="brand"><img src="brand/fa-monograma-preto.png" alt="FA" style="height:30px;display:block;margin-bottom:8px"><span>Essência · Equipe</span></div>
     ${nv.map(n => `<a class="nv ${path === n[0] || (n[0] !== '/' && path.startsWith(n[0])) || (n[0] === '/pacientes' && path.startsWith('/paciente/')) ? 'on' : ''}" href="#${n[0]}">${icon(n[2])}<span>${n[1]}</span>${n[3] ? `<i class="n">${n[3]}</i>` : ''}</a>`).join('')}
     <div class="foot"><a href="index.html" target="_blank" class="link">Abrir app da paciente</a><br><br><button class="link" data-a="logout">Sair</button></div></aside>
     <main>${inner}</main></div>`;

@@ -8,7 +8,7 @@ body{min-height:100vh;background:#EDE6DC}
 .logo{display:inline-flex;flex-direction:column;align-items:center;gap:6px;color:var(--graphite)}
 .logo b{font-family:var(--serif);font-weight:500;font-size:44px;letter-spacing:.12em;line-height:1;padding-left:.12em}
 .logo span{font-size:10.5px;letter-spacing:.5em;text-transform:uppercase;padding-left:.5em;color:var(--brown);font-weight:600}
-.logo.sm b{font-size:24px}.logo.sm span{font-size:8px}
+.logo img{display:block;height:64px;width:auto}.logo.sm img{height:26px}.logo.sm span{font-size:8px}
 .logo .rule{width:34px;height:1px;background:var(--taupe)}
 
 /* Splash */
