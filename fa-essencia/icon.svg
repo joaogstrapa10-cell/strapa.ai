@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#292927"/><text x="256" y="312" text-anchor="middle" font-family="Georgia,serif" font-size="210" fill="#F7F5F0" letter-spacing="8">FA</text><rect x="216" y="352" width="80" height="2" fill="#B8AA9A"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7F5F0"/><stop offset="1" stop-color="#E9E0D5"/></linearGradient>
+<clipPath id="c"><rect width="1024" height="1024" rx="229"/></clipPath></defs><g clip-path="url(#c)"><rect width="1024" height="1024" fill="url(#g)"/><g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M610 145 A380 380 0 1 1 243 243" stroke="#B8AA9A" stroke-width="18"/>
+  <path d="M394 730 L394 450 C394 342 446 272 520 272 C600 272 646 346 650 450 C654 548 648 650 636 730" stroke="#8B7866" stroke-width="46"/>
+  <path d="M394 548 C470 514 560 512 648 550" stroke="#8B9180" stroke-width="46"/>
+</g></g></svg>

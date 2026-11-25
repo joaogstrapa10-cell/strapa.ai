@@ -30,3 +30,6 @@ Abra o app e o painel em abas diferentes: os dados são compartilhados e atualiz
   Push com o app fechado exige Service Worker + Web Push/servidor.
 - WhatsApp: abre `wa.me` com mensagem contextual. O número em Configurações é **placeholder** (5541999990000).
 - Orientações clínicas: textos seed são neutros e de demonstração; só aparecem para a paciente se **aprovados** pela equipe médica.
+
+## Identidade
+Ícone e símbolo em `brand/` (`icon-1024.png` para as lojas, `icon-rounded-1024.png`, `symbol.svg`).
